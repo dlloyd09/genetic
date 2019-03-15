@@ -1,3 +1,13 @@
+####################################
+# helpers.py                       #
+#                                  #
+# Helper functions for genetic.py  #
+#                                  #
+# Doug Lloyd                       #
+# March 15, 2019                   #
+# CS50                             #
+####################################
+
 from phrase import target
 from termcolor import colored
 

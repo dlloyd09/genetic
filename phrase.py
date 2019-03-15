@@ -1,3 +1,13 @@
+####################################
+# phrase.py                        #
+#                                  #
+# Defines Phrase class for genetic #
+#                                  #
+# Doug Lloyd                       #
+# March 15, 2019                   #
+# CS50                             #
+####################################
+
 import random
 from cs50 import get_string
 
