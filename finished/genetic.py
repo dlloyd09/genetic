@@ -55,11 +55,11 @@ while bestScore < len(target):
     for i in range(popSize):
 
         # arbitrarily choose two parents from the mating pool
-        x = random.choice(range(len(matingPool)))
-        y = random.choice(range(len(matingPool)))
+        parentA = random.choice(matingPool)
+        parentB = random.choice(matingPool)
 
         # crossover/breed those two parents together
-        child = matingPool[x].crossover(matingPool[y])
+        child = parentA.crossover(parentB)
 
         # small chance that some characters in the child may mutate
         child.mutate()

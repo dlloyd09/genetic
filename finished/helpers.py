@@ -26,6 +26,6 @@ def colorize(s):
 def summarize(gen, phr, fit):
 
     # cleanly summarizes the data of the "best we've seen so far"
-    print(f"Generation #{gen:3}: ", end="")
+    print(f"Generation #{gen:4}: ", end="")
     colorize(phr)
-    print(f"  score: {fit:2}/{len(target)}")
+    print(f"  score: {fit:3}/{len(target)}")
