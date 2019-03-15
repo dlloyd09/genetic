@@ -32,7 +32,7 @@ class Phrase:
         # create a spot for the characters to go
         child = Phrase()
 
-        # flip a coin for each characters, selecting from one parent each time
+        # flip a coin for each character, selecting from one parent each time
         for i in range(len(self.characters)):
             if random.random() < 0.5:
                 child.characters[i] = self.characters[i]
@@ -42,7 +42,7 @@ class Phrase:
         return child
 
     # some portion of the time, need some characters to randomly change
-    def mutate(self, generation):
+    def mutate(self):
 
         # less than 1% of the time, change a character into something else
         for i in range(len(self.characters)):
